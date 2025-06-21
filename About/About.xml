@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>[SawedoffShotgun116] Melee Weapons - Misc</name>
+	<author>SawedoffShotgun116</author>
+	<url>https://github.com/AlohaOe114/SawedoffShotgun-s-Mech_Combat</url>
+	<supportedVersions>
+		<li>1.5</li>
+		<li>1.4</li>
+	</supportedVersions>
+	<packageId>SawedoffShotgun116.Rimworld.Biotech.Mech.Combat</packageId>
+	<loadAfter>
+		<li>Ludeon.RimWorld</li>
+		<li>Ludeon.RimWorld.Royalty</li>
+		<li>Ludeon.RimWorld.Ideology</li>
+		<li>Ludeon.RimWorld.Biotech</li>
+		<li>Ludeon.RimWorld.Anomaly</li>
+	    <li>brrainz.harmony</li>
+		<li>CETeam.CombatExtended</li>
+	</loadAfter>
+
+	<description>
+ - PoweredLongsword: (Anti-Scyther(also anti-Centipede), general purpose, usableWithShields)      
+   A plasma longsword.     
+ - PoweredZweihander: (Specifically Anti-Centipede, but not so efficient when fighting Non-heavy armor enemies)      
+   A plasma sword made according to an ancient famous sword. (better than poweredlongsword，except price.)    
+ - ExpandableBaton: (usableWithShields)      
+   A more flexible baton,less damage per hit , DPS similar to Steel Mace.    
+## FAQ
+
+ Q1: CE compatible?
+ A1: CE compatible!
+
+ Q2: All Texture issues including but not limited to: "Texture style Non-conformant", "Ugly", etc.
+ A2: I may draw/optimize Textures later... but now I wanna to stretch 114 hours into 514 hours.
+
+## Acknowledgement
+
+  - **!! All community contributors and You - Love, Mental stimulation and support, Test and Feedback !!**
+  - **[!! PlasmaBurst2 - Inspiration for Executioner in some extent !! (Click here to visit their sites)](https://www.plazmaburst2.com)**
+
+## Authors
+
+  - SawedoffShotgun
+
+## License
+
+  Rimworld is owned by Tynan Sylvester.    
+  (CC BY-NC-ND 4.0)    
+
+## Links&Contacts
+
+  (If you have any questions, please Email me.)  
+  Contact Information:    
+    [Email](mailto:chaconnejay@outlook.com)    
+    [Github](https://github.com/AlohaOe116)    
+  Ludeon: SawedoffShotgun  
+
+## SeeAlso
+
+ [SawedoffShotgun's MeleeWeapons_Misc]()  
+ [SawedoffShotgun's Gun_Misc]()  
+
+## If you love my mods    
+
+~~[Ko-fi me if you like]~~     
+~~[Afdian]~~     
+~~[Patreon]~~     
+     
+Commissions are not being accepted now.     
+![Preview](/About/Preview.png)
+    </description>
+</ModMetaData>

@@ -1,0 +1,23 @@
+## SpecificallyForThisMod
+ powered version 's crit chance = x1.3 medival version
+ /*
+ Poweredshortsword Critchance = 0.26, steel gladius Critchance= 0.2
+ CE version's steel longsword Critchance = 0.5 (Incredible)
+ */
+
+KeyWorlds of this Mod:
+"Flexible"(Less weapon cooldown time and aiming time) or "Cheap" or "Anti-centipede"
+
+---
+
+## Universal mod making principle of SawedoffShotgun116:
+
+1. Make things fit the Vanilla/CE environment. Avoid Defing Overpowered or Over-weakened things.
+2. Compared with Tynan, this author is a little bit more in sticking to the reallife, to the real datas, when comes to Thing stats Def(At the "1." basis).
+
+3. Write more and detailed comments when Coding or Defing things at the Author's wish (A good habit. but not easy to insist on. \*shrug\*)
+
+4. Technical Details
+  - Match the "Combat Power" with "Combat Effectiveness" (E.g. The author would not make a pawn more powerful than Centipede Blaster(400 Combat Power) and cost only 100 Combat Power, if possible)  
+  - Def a thing's marketvalue reasonably even that weapon is not unobtainable to Players (E.g. In "Empire" mod, players can arm your allies with powerful and exotic mod weapons in a very cheap price cause that weapon have no marketvalue defined.)  
+  - Keep mod simple. Keep "research tab" and "build menu" clean and simple, def as less research item/building as possible.  

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <!-- PoweredLongSword -->
+  <!-- Inspired by Chinese "Tang Dao"; Scale: 73.2:26.9.:3.2 ; length: 1m -->
+  <ThingDef ParentName="BaseWeapon">
+    <defName>SS_Weapon_PoweredLongSword_Melee</defName>
+    <label>powered long sword</label>
+    <description>A highly-advanced long sword, the blade is coated in a field of ionized plasma, helping it cut through enemy armor.\n\n\n\nThat kind of weapon was once collected by some middle-aged Glitterworld Sword-lovers.</description>
+    <graphicData>
+        <texPath>Things/Item/Equipment/WeaponMelee/Tex_PoweredLongSword</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+        <drawSize>1.2</drawSize>
+    </graphicData>
+	
+	<possessionCount>1</possessionCount>
+    <techLevel>Spacer</techLevel>
+    <smeltable>false</smeltable>
+    <burnableByRecipe>true</burnableByRecipe>
+
+    <thingCategories>
+      <li>WeaponsMelee</li>
+    </thingCategories>
+    <weaponTags>
+        <li>LongSword</li>
+        <li>SpacerMelee</li>
+    </weaponTags>
+	<weaponClasses>
+        <li>Melee</li>
+        <li>MeleePiercer</li>
+	</weaponClasses>
+    <tradeTags>
+      <li>WeaponMelee</li>
+    </tradeTags>
+
+    <relicChance>2</relicChance>
+    <thingSetMakerTags>
+        <li>RewardStandardQualitySuper</li>
+    </thingSetMakerTags>
+	<statBases>
+      <!--
+      (Obsolete: <MarketValue>2082</MarketValue> sincerely calculated)
+      -->
+      <WorkToMake>48000</WorkToMake>
+      <Mass>1.53</Mass>
+    </statBases>
+    <equippedAngleOffset>-65</equippedAngleOffset>
+    <!-- "Combat Extended Melee"'s PoweredWeapons may too expensive, a powered melee weapon have almost same price with charged guns? So powered weapons made by the author were all cheaper.
+    Oringinally powered short sword *2.4 as below:
+    <Steel>24</Steel>
+    <Plasteel>95</Plasteel>
+    <ComponentIndustrial>14</ComponentIndustrial>
+    <ComponentSpacer>2</ComponentSpacer>
+    -->
+    <costList>
+      <Steel>24</Steel>
+      <Plasteel>60</Plasteel>
+      <ComponentIndustrial>6</ComponentIndustrial>
+      <ComponentSpacer>2</ComponentSpacer>
+    </costList>
+
+    <recipeMaker>
+      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+      <workSkill>Crafting</workSkill>
+      <effectWorking>Smith</effectWorking>
+      <soundWorking>Recipe_Smith</soundWorking>
+      <skillRequirements>
+        <Crafting>8</Crafting>
+      </skillRequirements>
+      <recipeUsers Inherit="False">
+        <li>FabricationBench</li>
+      </recipeUsers>
+      <displayPriority>220</displayPriority>
+      <unfinishedThingDef>UnfinishedWeapon</unfinishedThingDef>
+      <researchPrerequisite>ChargedShot</researchPrerequisite>  <!--If CEMelee added ， use CE——Melee research: "CE_PoweredMelee" -->
+    </recipeMaker>
+    <inspectorTabs>
+      <li>ITab_Art</li>
+    </inspectorTabs>
+    <tools> <!-- In vanilla: AP≈1.5DMG, fine. -->
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>4</power>
+        <cooldownTime>1.5</cooldownTime>
+        <chanceFactor>0.2</chanceFactor>
+      </li>
+      <li>
+        <label>point</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>18</power>
+        <cooldownTime>1.38</cooldownTime>
+        <armorPenetration>0.6</armorPenetration>
+
+      </li>
+      <li> <!-- steel longsword 23DMG, 2.6cooldown-->
+        <label>edge</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>40</power>
+        <cooldownTime>1.22</cooldownTime>
+        <armorPenetration>0.27</armorPenetration>
+      </li>
+    </tools>
+
+    <comps>
+      <li>
+        <compClass>CompQuality</compClass>
+      </li>
+      <li Class="CompProperties_Art">
+        <nameMaker>NamerArtWeaponMelee</nameMaker>
+        <descriptionMaker>ArtDescription_WeaponMelee</descriptionMaker>
+        <minQualityForArtistic>Excellent</minQualityForArtistic>
+      </li>
+    </comps>
+  </ThingDef>
+
+</Defs>
